@@ -1,12 +1,12 @@
 const mongoose=require('mongoose')
 
 const standupSchema=new mongoose.Schema({
-    productName:{type:String},
-    productDesc:{type:String},
-    productPrice:{type:Number},
-    manufacDate:{type:Date,default:Date.now},
-    ExpirationDate:{type:Date,default:Date.now},
-    Barcode:{type:Number},
+    StudentName:{type:String},
+    Student_id:{type:String},
+    phone:{type:Number},
+    course:{type:String},
+    Date_of_birth:{type:Date,default:Date.now}
+    
 
 }) 
 
